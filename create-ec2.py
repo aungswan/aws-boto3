@@ -11,6 +11,6 @@ myclient.run_instance(
     ImageId=myami,
     InstanceType='t2.micro',
     SubnetId=mysub,
-    MinCount=1
-    MaxCount=1
-)
+    MinCount=1,
+    MaxCount=1,
+    )
